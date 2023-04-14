@@ -1,0 +1,63 @@
+.customers h1{
+    font-weight: 600;
+    color: #8BC34A;
+}
+.containers{
+background-color: rgb(237, 236, 236);
+padding-bottom: 90px;
+}
+
+
+.Company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.Company h3 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+ padding-left: 70px;
+
+  }
+  .Company h3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 70%;
+    width: 300px;
+    border-bottom: 1.5px solid green;
+    transform: translateX(-50%);
+  }
+
+  /* card  */
+  
+  .card {
+    position: relative;
+  }
+  .card-bottom {
+    position: absolute;
+    top: 98%;
+    left: 100%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .button-half-outside {
+    background-color: #8BC34A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    position: absolute;
+    left: -25%;
+    top: -10%;
+    z-index: 1;
+  }
+  .card_postion{
+    position: relative;
+  }

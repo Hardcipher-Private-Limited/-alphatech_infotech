@@ -1,0 +1,73 @@
+.containerss{
+    background-color: #8BC34A;
+}
+.workFlow{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+.palling_text{
+  display: block;
+  margin-top: 60px;
+  color: rgb(207, 209, 209);
+}
+.workFlow p{
+    color: gray;
+    text-align: center;
+}
+
+.planning{
+    /* margin-left: 25%; */
+    padding: 39px;
+    border-radius: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+}
+
+  .long-arrow-right{
+    display: block;
+    margin: 30px auto;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+  }
+  .long-arrow-right{
+   transform: rotate(135deg);
+  }
+  
+ 
+  .long-arrow-right::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    background-color: black;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
+  }
+
+  .facebook_icon{
+    align-items: center;
+    text-align: center;
+    /* margin-left: 25%; */
+    padding: 10px;
+    border-radius: 2px solid black;
+    background-color: rgb(49, 47, 47);
+    border-radius: 50%;
+  }
+
+  .LInks{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .CopyRight{
+    padding-top: 90px;
+  }
+  .lgoos h4:hover{
+    color: white;
+    
+  }

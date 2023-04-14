@@ -1,0 +1,137 @@
+.MobileImage{
+    position: relative; 
+    display: inline-block;
+}
+.Mobiel_info{
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+     text-align: center;
+    color: white;
+
+    }
+.Mobiel_info h1{
+    font-weight: 900;
+    font-size: 50px;
+    font-style: inherit;
+}
+.Mobiel_info span:hover{
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid  white;
+    font-style: inherit;
+  }
+  .callcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #e6e6e6;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  .makebutton{
+    background-color: #8BC34A;
+    color: white;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+  }
+  .makebutton:hover{
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid  #8BC34A;
+    font-style: inherit;
+    border-radius: 5px;
+  }
+  .conectcall{
+    padding-left: 100px;
+    background-color: rgb(237, 236, 236);
+    padding-bottom: 50px;
+  }
+  .buttonmake{
+ text-align: center;
+  }
+
+  /* about us  */
+  .aboutus{
+    padding-top: 100px;
+  }
+ .aboutus h1 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+
+  }
+  
+  .aboutus h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 220px;
+    border-bottom: 2px solid green;
+    transform: translateX(-50%);
+  }
+  
+ .bankIcon{
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    padding: 30px;
+    border-radius: 2px solid green;
+    background-color: #8BC34A;
+    border-radius: 50%;
+ }
+ .bankimg{
+    height: 50px;
+    width: 50px;
+ }
+
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .company h5 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+ padding-left: 70px;
+
+  }
+  .company h5::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 70%;
+    width: 50px;
+    border-bottom: 1px solid green;
+    transform: translateX(-50%);
+  }
+  
+.company h3{
+border-bottom: 1px solid green;
+width: 50px;
+bottom: -2px;
+padding-left: 20%;
+padding-bottom: 20px;
+
+}
+.company p{
+    padding-left: 30px;
+    color: rgb(89, 87, 87);
+    font-size:medium;
+    font-weight: 400;
+    font-style: initial;
+}
