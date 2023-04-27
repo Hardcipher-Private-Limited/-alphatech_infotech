@@ -1,10 +1,20 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import "../UIStyle/NavBar.css";
 import { NavLink, Navigate, useNavigate } from "react-router-dom";
 
 function NavBar() {
   const Navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(true);
+
+  function handleOpen() {
+    setMenuOpen(menuOpen);
+  }
+  function handleHome() {
+    Navigate("/");
+  }
+
   function HandleAbout() {
+    window.scrollTo(0, 0);
     Navigate("./About");
   }
   function handleProduct() {
@@ -25,6 +35,7 @@ function NavBar() {
               src="/Images/LOGO.png"
               alt="image-fluid"
               style={{ width: 290, height: 90 }}
+              onClick={handleHome}
             />
           </a>
           <button
@@ -33,48 +44,63 @@ function NavBar() {
             data-bs-toggle="collapse"
             data-bs-target="#navbarCollapse"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span
+              class="navbar-toggler-icon"
+              onClick={() => setMenuOpen(!menuOpen)}
+            ></span>
           </button>
-          <div
-            class="collapse navbar-collapse middleNavBar  d-flex InLineCenter"
-            id="navbarCollapse"
-          >
-            <div class="navbar-nav">
-              <a href="#" class="nav-item nav-link active boxmodel">
-                Home
-              </a>
-              <a
-                href="#"
-                class="nav-item nav-link active boxmodels"
-                onClick={HandleAbout}
-              >
-                ABOUT
-              </a>
-              <a
-                href="#"
-                class="nav-item nav-link active boxmodels"
-                onClick={handleProduct}
-              >
-                PRODUCTS
-              </a>
-              <a
-                href="#"
-                class="nav-item nav-link active boxmodels"
-                tabindex="-1"
-                onClick={handleFranchise}
-              >
-                FRANCHISE
-              </a>
-              <a
-                href="#"
-                class="nav-item nav-link active boxmodels"
-                tabindex="-1"
-                onClick={handleContect}
-              >
-                CONTACT
-              </a>
+          {menuOpen && (
+            <div
+              class="collapse navbar-collapse middleNavBar   InLineCenter"
+              id="navbarCollapse"
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                alignItems: "center",
+                position: "relative",
+              }}
+            >
+              <div class="navbar-nav">
+                <a
+                  href="#"
+                  onClick={handleHome}
+                  className="nav-item nav-link active boxmodels"
+                >
+                  HOME
+                </a>
+                <a
+                  href="#"
+                  class="nav-item nav-link active boxmodels"
+                  onClick={HandleAbout}
+                >
+                  ABOUT
+                </a>
+                <a
+                  href="#"
+                  class="nav-item nav-link active boxmodels"
+                  onClick={handleProduct}
+                >
+                  PRODUCTS
+                </a>
+                <a
+                  href="#"
+                  class="nav-item nav-link active boxmodels"
+                  tabindex="-1"
+                  onClick={handleFranchise}
+                >
+                  FRANCHISE
+                </a>
+                <a
+                  href="#"
+                  class="nav-item nav-link active boxmodels"
+                  tabindex="-1"
+                  onClick={handleContect}
+                >
+                  CONTACT
+                </a>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </nav>
     </div>

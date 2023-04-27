@@ -5,7 +5,6 @@
     position: relative;
     display: inline-block;
     padding-bottom: 10px;
- padding-left: 70px;
 
   }
   .Contect-heading  h3::after {
@@ -13,8 +12,8 @@
     display: block;
     position: absolute;
     bottom: -2px;
-    left: 70%;
-    width: 300px;
+    left: 50%;
+    width: 200px;
     border-bottom: 1px solid green;
     transform: translateX(-50%);
   }
@@ -44,10 +43,12 @@
     background-color: rgb(200, 205, 144);
     border-radius: 50%;
   }
-/* .inputs{
-  border: none;
-  border-bottom: 2px solid red;
-} */
+.text_fontt{
+  font-size: 35px;
+}
+.all_text_color p{
+  color: rgb(241, 241, 241);
+}
 
 .inputs[type=text] {
   width: 90%;

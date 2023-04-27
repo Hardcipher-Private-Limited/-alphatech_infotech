@@ -6,7 +6,7 @@ const Contect = () => {
     <>
       <div className="body">
         <div className="container" style={{ paddingBottom: 100 }}>
-          <div className="Contect-heading text-center p-5">
+          <div className="Contect-heading text-center p-5" data-aos="fade-up">
             <h3>CONTACT US</h3>
           </div>
           <div className="col-lg-12 row">
@@ -14,8 +14,8 @@ const Contect = () => {
               className="col-lg-4 p-4 text-white"
               style={{ backgroundColor: "#8BC34A" }}
             >
-              <div>
-                <h4 className=" text-center">Let's get in touch</h4>
+              <div className="all_text_color">
+                <h4 className=" text-center text_fontt">Let's get in touch</h4>
                 <p className=" text-center">
                   We're open for any suggestion or just to have a chat
                 </p>
@@ -30,7 +30,7 @@ const Contect = () => {
                     <p>Jhajjar, HARYANA 124507</p>
                   </div>
                 </div>
-                <div className="d-flex" style={{ gap: 20 }}>
+                <div className="d-flex pt-3" style={{ gap: 20 }}>
                   <div className="pt-5">
                     <span className="location_icon">
                       <img src="./Images/pin.png" />
@@ -44,7 +44,7 @@ const Contect = () => {
                     <p>+91-11-4750-3156</p>
                   </div>
                 </div>
-                <div className="d-flex" style={{ gap: 20 }}>
+                <div className="d-flex pt-3" style={{ gap: 20 }}>
                   <div className="pt-3">
                     <span className="location_icon">
                       <img src="./Images/pin.png" />
@@ -55,7 +55,7 @@ const Contect = () => {
                     <p>support@alphatech infotech.in</p>
                   </div>
                 </div>
-                <div className="d-flex" style={{ gap: 20 }}>
+                <div className="d-flex pt-3" style={{ gap: 20 }}>
                   <div className="pt-3">
                     <span className="location_icon">
                       <img src="./Images/pin.png" />

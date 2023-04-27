@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="container">
-        <div className="text-center about_heading">
+        <div className="text-center about_heading" data-aos="fade-up">
           <h3> ABOUT US</h3>
         </div>
         <div className="about">

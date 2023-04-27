@@ -1,43 +1,57 @@
 import React from "react";
 import "../UIStyle/Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const Navigate = useNavigate();
+  function HandleAbout() {
+    window.scrollTo(0, 0);
+    Navigate("./About");
+  }
+  function handleProduct() {
+    window.scrollTo(0, 0);
+    Navigate("./product");
+  }
+  function handleFranchise() {
+    window.scrollTo(0, 0);
+    Navigate("./franchise");
+  }
   return (
     <>
       <footer className="bg-dark text-muted p-5">
         <div className="container">
-          <div className="col-lg-12 row">
-            <div className="col-lg-6">
+          <div className="footer_">
+            <div className="footer_1">
               <div>
                 <h4 className="text-white">About us</h4>
                 <p>
                   At Inspirox India we are fulfilling our clients with our
                   non-disappointment conveying thoughts.
                 </p>
-                <div className="">
-                  <span className="facebook_icon">
+                <div className="iconss" data-aos="fade-up">
+                  <div className="facebook_icon">
                     <img src="./Images/facebook-app-symbol.png" />
-                  </span>
-                  <span className="facebook_icon m-3">
+                  </div>
+                  <div className="facebook_icon ">
                     <img src="./Images/twitter.png" />
-                  </span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="footer_2">
               <h4 className="text-white">Links</h4>
               <div className="LInks">
-                <span>About</span>
-                <span>Product</span>
-                <span>Franchise</span>
+                <p onClick={HandleAbout}>About</p>
+                <p onClick={handleProduct}>Product</p>
+                <p onClick={handleFranchise}>Franchise</p>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="footer_2">
               <h4 className="text-white">Privacy</h4>
               <div className="LInks">
-                <span>Terms</span>
-                <span>Privacy Policy</span>
+                <p>Terms</p>
+                <p>Privacy Policy</p>
               </div>
             </div>
           </div>

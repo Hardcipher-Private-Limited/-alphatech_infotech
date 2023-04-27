@@ -5,11 +5,11 @@ const Franchise = () => {
   return (
     <>
       <div className="container pt-5 pb-5">
-        <div className="text-center franchise_heading">
+        <div className="text-center franchise_heading" data-aos="fade-up">
           <h3> FRANCHISE</h3>
         </div>
-        <div>
-          <p>
+        <div className="pargraph">
+          <p className="pt-5">
             Save time, money and manpower resources with a platform designed by
             Inspirox India. We offer designed to grow your revenue.
           </p>
@@ -47,13 +47,14 @@ const Franchise = () => {
                   <input type="password" class="form-control" />
                 </div>
               </div>
-
-              <button
-                type="submit"
-                class="btn btn-outline-success form-control text-center text-dark m-3"
-              >
-                SUMBIT
-              </button>
+              <div className="col-lg-12 ps-4 pt-4">
+                <button
+                  type="submit"
+                  class="btn btn-outline-success form-control text-center text-dark"
+                >
+                  SUMBIT
+                </button>
+              </div>
             </form>
           </div>
           <div className="col-lg-3"></div>

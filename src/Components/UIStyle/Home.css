@@ -4,12 +4,11 @@
 }
 .Mobiel_info{
     position: absolute; 
-    top: 50%; 
+    top: 45%; 
     left: 50%;
     transform: translate(-50%, -50%);
      text-align: center;
     color: white;
-
     }
 .Mobiel_info h1{
     font-weight: 900;
@@ -59,10 +58,41 @@
   .buttonmake{
  text-align: center;
   }
+  @media only screen and (min-width: 300px) and (max-width: 767px) {
+    .Mobiel_info h1{
+      font-weight: 800;
+      font-size: 30px;
+      font-style: inherit;
+      }
+
+      .Mobiel_info span{
+        width: 80%;
+        font-size: 14px;
+      }
+      .conectcall{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 0px;
+        align-items: center;
+        gap: 40px;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
 
   /* about us  */
   .aboutus{
     padding-top: 100px;
+    display: flex;
   }
  .aboutus h1 {
     position: relative;
@@ -83,17 +113,36 @@
   }
   
  .bankIcon{
-    align-items: center;
-    text-align: center;
-    margin-left: 25%;
-    padding: 30px;
-    border-radius: 2px solid green;
+    padding: 25%;
     background-color: #8BC34A;
     border-radius: 50%;
+    margin: 10%;
  }
  .bankimg{
-    height: 50px;
-    width: 50px;
+    width: 70%;
+ }
+ @media only screen and (min-width: 300px) and (max-width: 767px) {
+.responsive_4card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+ gap:50px
+}
+.aboutus h1::after {
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+.company h5 {
+display: flex;
+justify-content: center;
+align-items: center;
+left: 10%;
+}
+
+
+
  }
 
   

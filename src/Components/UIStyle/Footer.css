@@ -1,9 +1,22 @@
 .containerss{
     background-color: #8BC34A;
+    padding-bottom: 6%;
+}
+.responsive_WorkFlow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
 }
 .workFlow{
     padding-top: 50px ;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+}
+.lgoos{
+  align-items: center;
+  text-align: center;
+  width: 15% !important;
+  padding-top: 30px;
 }
 .palling_text{
   display: block;
@@ -16,58 +29,96 @@
 }
 
 .planning{
-    /* margin-left: 25%; */
-    padding: 39px;
-    border-radius: 2px solid white;
+    padding: 40%;
     background-color: white;
     border-radius: 50%;
 }
+.planning_img{
+  width: 100% !important;
+}
 
   .long-arrow-right{
-    display: block;
+    /* display: block;
     margin: 30px auto;
     width: 25px;
     height: 25px;
     border-top: 2px solid #000;
-    border-left: 2px solid #000;
+    border-left: 2px solid #000; */
   }
   .long-arrow-right{
-   transform: rotate(135deg);
+   /* transform: rotate(135deg); */
   }
   
  
   .long-arrow-right::after{
-    content: "";
+    /* content: "";
     display: block;
     width: 1px;
     height: 150px;
     background-color: black;
     transform: rotate(-45deg) translate(15px, 4px);
     left: 0;
-    top: 0;
+    top: 0; */
   }
 
-  .facebook_icon{
-    align-items: center;
-    text-align: center;
-    /* margin-left: 25%; */
-    padding: 10px;
-    border-radius: 2px solid black;
-    background-color: rgb(49, 47, 47);
-    border-radius: 50%;
-  }
 
-  .LInks{
+  /* .LInks{
     padding-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
+  } */
 
   .CopyRight{
     padding-top: 90px;
   }
+  
   .lgoos h4:hover{
     color: white;
     
   }
+  @media only screen and (min-width: 300px) and (max-width: 767px) {
+    .lgoos{
+      width: 60% !important;
+    }
+    .footer_1{
+      width: 100% !important;
+    }
+    .footer_2{
+      width: 100% !important;
+      padding-top: 30px;
+    }
+    
+  }
+
+  /* footer start  */
+
+
+  .footer_{
+    display: flex;
+    flex-wrap: wrap !important;
+    gap: 2%;
+  }
+  .iconss{
+    display: flex;
+    gap: 20px;
+  }
+  .facebook_icon{
+    padding: 2%;
+    background-color: rgb(49, 47, 47);
+    border-radius: 50px;
+    /* border-radius: 2px solid black;
+    background-color: rgb(49, 47, 47);
+    border-radius: 50%; */
+  }
+.facebook_icon img{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.footer_1{
+  width: 50%;
+}
+.footer_2{
+  width: 23%;
+}

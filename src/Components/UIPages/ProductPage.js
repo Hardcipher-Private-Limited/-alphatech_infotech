@@ -5,7 +5,7 @@ const ProductPage = () => {
   return (
     <>
       <div className="container pb-5">
-        <div className="Product-heading text-center p-5">
+        <div className="Product-heading text-center p-5" data-aos="fade-up">
           <h3>PRODUCTS</h3>
         </div>
         <div className="col-lg-12 row">
@@ -40,7 +40,7 @@ const ProductPage = () => {
                 Self/Auto SEO
               </span>
               <span className="">
-                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
+                <i class="fa-solid fa-plus " style={{ color: "#8BC34A " }}></i>
                 Customized Products/ Service E-Catalogue
               </span>
               <span className="">
@@ -89,63 +89,63 @@ const ProductPage = () => {
             <div className="Features">
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Create Identity at your targeted location
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Easy to Update Website
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Auto Social Sharing
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Easy to reach end-users
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Own Favicon
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Unique Content
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Payment Getaway Integration
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Customized Pages with Customised Tab
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                WhatsApp Chat Integration
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Domain Mapping
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Subscribers
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Arrange Menu Tab
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Google Map
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Manage Tickets
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Online Training (How to Manage Website)
               </span>
             </div>
           </div>
@@ -153,68 +153,68 @@ const ProductPage = () => {
         {/* Inspirox E Multi-Location start */}
         <div className=" col-lg-12 row pt-5 pb-5">
           <div className="Catalogue-heading pb-5 ">
-            <h3>Inspirox E Catalogue</h3>
+            <h3>Inspirox E Plug-in</h3>
           </div>
           <div className="col-lg-7 ">
             <div className="Features">
               <h4>Features</h4>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Make your Existing Website Self/Auto SEO Enabled
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                No Limit of Keywords
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Update your Keywords and Get Traffic
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Get discovered through keywords on search engines
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Get Handle Panel and Update your Site with Keywords
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Unique Content
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                WhatsApp integration
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Call Connect
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Auto Social Sharing
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Google Map
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Enquiry Form Integrated with SMS Gateway
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Manage Tickets
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Dedicated Support Person
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Online Training (How to Manage Website)
               </span>
-              <span className="">
+              <span className=" " style={{ lineHeight: "20px" }}>
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
                 Our E - Plug-in Supports HTML, PHP, WORDPRESS, DOT NET, ANY OPEN
                 FRAMEWORK
@@ -256,55 +256,59 @@ const ProductPage = () => {
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                One handle dashboard for All Location
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                No limit of keywords
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Real-time analytics
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Language translator
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Handle Mob App
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Categorized Gallery (Image and Video)
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Live chat facility
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Upload PDF Broucher
+              </span>
+              <span className="pt-3">
+                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
+                Unlimited Space
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
-              </span>
-              <span className="">
-                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Pop-up Account
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Create your own Tab (As per your need)
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Enquiry Form Integrated with SMS Gateway
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Online Training (How to Manage Website)
+              </span>
+              <span className="">
+                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
+                Online Training (How to Manage Website)
               </span>
             </div>
           </div>
@@ -312,63 +316,63 @@ const ProductPage = () => {
             <div className="Features">
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Create Global Identity
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Easy to Update All Website
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Auto Social Sharing
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Easy to reach end-users
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Own Favicon
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Unique Content
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Payment Getaway Integration
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Customized Pages with Customised Tab
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                WhatsApp Chat Integration
+              </span>
+              <span className="featureP" style={{ lineHeight: "20px" }}>
+                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
+                Domain Mapping (Sub Domain for All Locations)
+              </span>
+              <span className="">
+                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
+                Subscribers
+              </span>
+              <span className="">
+                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
+                Arrange Menu Tab
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Google Map
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Manage Tickets
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
-              </span>
-              <span className="featureP">
-                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
-              </span>
-              <span className="">
-                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
-              </span>
-              <span className="">
-                <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Dedicated Support Person
               </span>
             </div>
           </div>
@@ -384,35 +388,36 @@ const ProductPage = () => {
 
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Unique Content and regular updates help to improve ranking of
+                website.
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Quarterly (45) Updates
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Easy to handle dashboard
+                Half Yearly (90) Updates
               </span>
               <span className="featureP">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Self/Auto SEO
+                Yearly (135) Updates
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Customized Products/ Service E-Catalogue
+                Experienced Content Writer
               </span>
               <span className="">
                 <i class="fa-solid fa-plus" style={{ color: "#8BC34A " }}></i>
-                Our E - Plug-in Supports HTML, PHP, WORDPRESS, DOT NET, ANY OPEN
-                FRAMEWORK
+                Also we educate the customers, why the updates are required on
+                the website.
               </span>
             </div>
           </div>
           <div className="col-lg-1"></div>
-          <div className="col-lg-4">
+          <div className="col-lg-4  ">
             <img
-              src="https://.in/images/products/p2.png"
+              src="https://inspiroxindia.in/images/products/p1.png"
               alt=".."
               className="ImgLog"
             />

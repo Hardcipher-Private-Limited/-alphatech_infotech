@@ -1,3 +1,6 @@
+
+  
+  
 .NavBarColor{
     background-color: rgb(178, 236, 91);
 }
@@ -11,27 +14,65 @@
     background-color: white;
     color: black;
     width: 90px;
-    height: 90px;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: center !important;    
     align-items: center;
-    line-height: 60px;
+    align-content: center;
+    
+  }
+  .LInks p{
+    cursor: pointer;
   }
 
 .InLineCenter{
     line-height: 60px;
+}
+.InLineCenter a{
+    padding-left: 5% !important;
+    width: 100px;
+    font-size: 13px;
+    cursor: pointer;    
+}
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    
+.InLineCenter{
+    line-height: 50px;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-wrap: wrap;
+
+}
+.InLineCenter a{
+    padding-left: 5% !important;
+    font-size: 13px;  
+    width: 42vh;  
+}
+
+.boxmodels:hover{
+    background-color: rgb(178, 236, 91)  !important;
+    color: white !important;
    
 }
+.boxmodel {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: start;
+    background-color: rgb(178, 236, 91);
+
+  }
+
+
+  .boxmodels{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 40vh;
+}
+
+}
+
 .boxmodels:hover{
     background-color: white;
     color: black;
-    width: 90px;
-    height: 90px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* line-height: 60px; */
+
 }
   
