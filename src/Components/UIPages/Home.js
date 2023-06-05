@@ -50,11 +50,7 @@ const Home = () => {
             </span>
           </div>
           <div>
-            <h6 className="text-muted">
-              {" "}
-              Call us: +91-11-4750-3156, +91-11-4370-9278, +91-9990111730,
-              +91-828764939
-            </h6>
+            <h6 className="text-muted"> Call us: +91-9868260340</h6>
             <span>Delhi | Mumbai | Ahmedabad | Jaipur</span>
           </div>
         </div>

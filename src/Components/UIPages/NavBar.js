@@ -30,13 +30,16 @@ function NavBar() {
     <div>
       <nav class="navbar navbar-expand-lg navbar-light NavBarColor">
         <div class="container-fluid">
-          <a href="#" class="navbar-brand">
-            <img
+          <a href="#" class="navbar-brand ">
+            {/* <img
               src="/Images/LOGO.png"
               alt="image-fluid"
               style={{ width: 290, height: 90 }}
-              onClick={handleHome}
-            />
+            /> */}
+
+            <span onClick={handleHome} className="header_imgs">
+              Elphatech Infotech
+            </span>
           </a>
           <button
             type="button"
