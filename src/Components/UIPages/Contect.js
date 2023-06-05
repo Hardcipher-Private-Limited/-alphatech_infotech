@@ -31,17 +31,14 @@ const Contect = () => {
                   </div>
                 </div>
                 <div className="d-flex pt-3" style={{ gap: 20 }}>
-                  <div className="pt-5">
+                  <div className="pt-2">
                     <span className="location_icon">
                       <img src="./Images/pin.png" />
                     </span>
                   </div>
                   <div>
                     <h6>Phone:</h6>
-                    <p>+91-11-4750-3156</p>
-                    <p>+91-11-4750-3156</p>
-                    <p>+91-11-4750-3156</p>
-                    <p>+91-11-4750-3156</p>
+                    <p>+91 9868260340</p>
                   </div>
                 </div>
                 <div className="d-flex pt-3" style={{ gap: 20 }}>
@@ -52,7 +49,7 @@ const Contect = () => {
                   </div>
                   <div>
                     <h6>Location:</h6>
-                    <p>support@alphatech infotech.in</p>
+                    <p>info@elphatech.com</p>
                   </div>
                 </div>
                 <div className="d-flex pt-3" style={{ gap: 20 }}>
@@ -63,7 +60,7 @@ const Contect = () => {
                   </div>
                   <div>
                     <h6>Career: Send resume to</h6>
-                    <p>hr@alphatech infotech.in</p>
+                    <p>info@elphatech.com</p>
                   </div>
                 </div>
               </div>

@@ -4,14 +4,22 @@ import "../UIStyle/Home.css";
 import Product from "../UIPages/Product";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { faUniversalAccess } from "@fortawesome/free-solid-svg-icons";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const Navigate = useNavigate();
   useEffect(() => {
     Aos.init({
       once: true,
       duration: 500,
     });
   }, []);
+
+  function handleContact() {
+    window.scrollTo(0, 0);
+    Navigate("/contect");
+  }
   return (
     <div>
       <div></div>
@@ -24,7 +32,11 @@ const Home = () => {
           />
           <div className="Mobiel_info">
             <h1 data-aos="fade-up">Get Yourself Known</h1>
-            <span className="btn bg-white color-dark" data-aos="fade-up">
+            <span
+              className="btn bg-white color-dark"
+              data-aos="fade-up"
+              onClick={handleContact}
+            >
               CONNECT WITH US
             </span>
           </div>
